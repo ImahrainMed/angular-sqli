@@ -1,3 +1,5 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { RedditBlogComponent } from './reddit-blog/reddit-blog.component';
+export const routes: Routes = [
+    {path:"blog", component:RedditBlogComponent}
+];
